@@ -1,7 +1,12 @@
-let age = 19;
+let isStudent = true;
+let grade = 3;
 
-if (age >= 18) {
-   console.log("Вы совершеннолетний.");
+if (isStudent) {
+   if (grade > 2) {
+       console.log("Вы успешно прошли курс.");
+   } else {
+       console.log("Вы не прошли курс.");
+   }
 } else {
-   console.log("Вы несовершеннолетний.");
+   console.log("Вы не являетесь студентом.");
 };
